@@ -1,6 +1,5 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
-import { appWithTranslation } from 'next-i18next';
 import { ThemeProvider } from 'next-themes';
 import { Toaster } from 'react-hot-toast';
 import { AuthProvider } from '@/context/AuthContext';
@@ -36,7 +35,7 @@ function App({ Component, pageProps }: AppProps) {
           <WishlistProvider>
             <UIProvider>
               {loading && (
-                <div className="fixed top-0 left-0 w-full h-1 bg-primary-500 animate-pulse z-50"></div>
+                <div className="fixed top-0 left-0 w-full h-1 bg-blue-500 animate-pulse z-50"></div>
               )}
               <Component {...pageProps} />
               <Toaster
@@ -71,4 +70,4 @@ function App({ Component, pageProps }: AppProps) {
   );
 }
 
-export default appWithTranslation(App);
+export default App;
