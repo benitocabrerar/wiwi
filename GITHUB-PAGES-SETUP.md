@@ -1,46 +1,46 @@
 # Configuración de GitHub Pages
 
-Tu sitio web se desplegará automáticamente usando GitHub Actions. Aquí están los pasos finales:
+¡Tu sitio web está listo para ser desplegado! Solo necesitas habilitar GitHub Pages.
 
-## Pasos para habilitar GitHub Pages:
+## ✅ Pasos para habilitar GitHub Pages:
 
-1. Ve a tu repositorio en GitHub: https://github.com/benitocabrerar/wiwi
-2. Haz clic en **Settings** (Configuración) en la parte superior del repositorio
-3. Desplázate hacia abajo hasta la sección **Pages** en el menú lateral izquierdo
-4. En **Source**, selecciona **Deploy from a branch**
-5. En **Branch**, selecciona **gh-pages** (aparecerá después del primer despliegue)
-6. Deja **/ (root)** seleccionado
-7. Haz clic en **Save**
+1. Ve a tu repositorio: https://github.com/benitocabrerar/wiwi/settings/pages
+2. En la sección **Source**, selecciona **GitHub Actions**
+3. Haz clic en **Save** (Guardar)
 
-## ¿Qué sucederá después?
+¡Eso es todo! No necesitas seleccionar ninguna rama.
 
-- ✅ El workflow de GitHub Actions se ejecutará automáticamente (ya está configurado)
-- ✅ Creará una nueva rama `gh-pages` con los archivos estáticos
-- ✅ GitHub Pages servirá el sitio desde esa rama
-- ✅ El proceso toma unos 2-3 minutos
+## 🚀 ¿Qué sucederá después?
 
-## Verificar el despliegue:
+- ✅ GitHub Actions ejecutará automáticamente el build
+- ✅ Construirá tu aplicación Next.js 
+- ✅ Desplegará automáticamente a GitHub Pages
+- ✅ El proceso toma 2-3 minutos
 
-1. Ve a la pestaña **Actions** en tu repositorio: https://github.com/benitocabrerar/wiwi/actions
-2. Verifica que el workflow "Deploy to GitHub Pages" se complete con ✅
-3. Ve a **Settings > Pages** y selecciona la rama **gh-pages**
-4. Tu sitio estará disponible en: **https://benitocabrerar.github.io/wiwi/**
+## 🌐 Tu sitio estará disponible en:
+**https://benitocabrerar.github.io/wiwi/**
 
-## Estado actual:
-- ✅ Configuración de Next.js completada
-- ✅ GitHub Actions configurado
-- ✅ Workflow actualizado para usar gh-pages
-- ⏳ Esperando que habilites GitHub Pages en configuración
+## 📋 Verificar el despliegue:
 
-## Funcionalidades del sitio:
+1. Ve a: https://github.com/benitocabrerar/wiwi/actions
+2. Verifica que el workflow "Build and Deploy" se complete con ✅
+3. Una vez completado, tu sitio estará live
 
-- ✅ Página principal con diseño responsivo
+## 🎯 Estado actual:
+- ✅ Código completamente configurado
+- ✅ Workflow de GitHub Actions optimizado
+- ✅ Next.js configurado para exportación estática
+- ⏳ Solo falta habilitar GitHub Pages (Source: GitHub Actions)
+
+## 🌟 Funcionalidades del sitio:
+
+- ✅ Página principal responsive
 - ✅ Navegación completa
-- ✅ Secciones de productos destacados
+- ✅ Productos destacados
 - ✅ Testimonios
 - ✅ Newsletter
 - ✅ Footer completo
 - ✅ Tema oscuro/claro
 - ✅ Optimizado para móviles
 
-¡Una vez que habilites GitHub Pages, tu sitio estará funcionando en línea!
+Una vez que habilites GitHub Pages con **Source: GitHub Actions**, tu sitio funcionará perfectamente.
